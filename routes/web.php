@@ -11,7 +11,7 @@ use App\Http\Controllers\EstadisticasController;
 
 /*
 |--------------------------------------------------------------------------
-| 🌱 RUTAS PÚBLICAS
+| 🌱 RUTAS PÚBLICAS el welcome completo
 |--------------------------------------------------------------------------
 */
 Route::view('/', 'welcome')->name('inicio');
