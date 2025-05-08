@@ -10,7 +10,7 @@ class AdminOnly
 {
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::user()->email !== 'escribeuncorreo@gmail.com') {
+        if (Auth::user()->email !== 'escribeuncorreo@gmail.com') { //cambia por un correo que consideres
             abort(403, 'Acceso no autorizado.');
         }
 
